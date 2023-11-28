@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+}
+body{
+    background: #54e2ef;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: rgb(38,38,82);
+    color:gold;
+    gap: 20px;
+}
+
+.logo img{
+    width: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.page-title{
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.navbar a{
+    color: white;
+    font: 1em sans-serif;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: gold;
+}
+.page-title::after{
+    content: " ";
+    position: relative;
+    width: 10%;
+    background-color: gold;
+    height: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    color: gold;
+    background: rgb(38,38,82);
+    margin-top: 20px;
+    width: 100%;
+    
+}
+/*LOGIN PAGE*/
+
+  /* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  background-color: #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  width: 100%;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 800px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+  .container {
+
+    width: 80%;
+  }
+}
+
+.CU-form input[type=text], .CU-form select,.CU-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .CU-form input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .CU-form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .CU-form{
+    width: 80%;
+  
+}
+   .CU-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+   .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+    .row,.column,.CU-form input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .CU-form{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+    }
+    
+  }
+  /* Styles for the specific sections within <main class="about-us-main"> */
+.about-us-main {
+    padding: 100px;
+  }
+  
+  .about-us-section {
+    margin-bottom: 40px;
+  }
+  
+  .about-us-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .offerings-grid {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .offerings-grid > div {
+    border: 1px solid #ccc;
+    padding: 60px;
+    background-color: rgb(38,38,82);
+    color: gold;
+    text-align: center;
+    min-width: 500px;
+    max-width: 800px;
+    height: 300px;
+  }
+  
+  /* Styling the contact address details */
+  .about-us-section address {
+    margin-top: 15px;
+  }
+  
+  .about-us-section address p {
+    margin-bottom: 5px;
+  }
+  
+  .about-us-section address a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-us-section address a:hover {
+    text-decoration: underline;
+  }
+
+#about-us-banner {
+    text-align: center;
+
+}
+  #about-us-banner img {
+    width: 50%;
+    height: 40%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* General styles for the FAQ page */
+.faq-main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for individual FAQ sections */
+  .faq-main section {
+    margin-bottom: 40px;
+    
+  }
+  
+  /* FAQ question styles */
+  .faq-item h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* FAQ answer styles */
+  .faq-item p {
+    color: #666;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+  }
+  
+  /* Additional styling for section headers */
+  .faq-main h2 {
+    font-size: 34px;
+    color:rgb(129, 123, 93);
+    border-bottom: 2px solid rgb(38,38,82);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Hover effect for FAQ items */
+  .faq-item:hover h3 {
+    color: #0066cc;
+  }
+  
+  .faq-item:hover p {
+    opacity: 1;
+    max-height: 100px; 
+    font: 2em sans-serif;
+  }
+  /* Main profile container */
+.profile {
+    max-width: 900px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile header section */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #fff;
+  }
+  
+  .profile-details h2 {
+    margin: 5px 0;
+    font-size: 24px;
+  }
+  
+  .profile-details p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  /* Bio, Academic, Interests sections */
+  .profile-bio h2,
+  .profile-academics h2,
+  .profile-interests h2 {
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-bio p,
+  .profile-academics ul,
+  .profile-interests ul {
+    margin-bottom: 15px;
+  }
+  
+  /* List items */
+  ul {
+    padding-left: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .profile-header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-picture img {
+      margin: 0 auto 10px auto;
+    }
+  }
+ 
+  .gallery {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+  .news-container {
+    width: 700px;
+    margin:20% auto;
+    overflow: hidden;
+    padding: 100px;
+    background-color: #04AA6D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+article {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+article.active {
+    display: block;
+}
+.news-button button {
+    margin: 10px;
+    padding: 8px ;
+    width: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.catalog-head {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #225b98;
+  color:gold;
+}
+
+.catalog-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10%;
+}
+.catalog-container h2 {
+  margin-top: 30px;
+}
+.catalog-container ul {
+  list-style: none;
+  padding: 0;
+}
+.catalog-container ul li {
+  margin-bottom: 10px;
+}
+.faculty-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+.faculty-item {
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: gold;
+  color: rgb(38,38,82);
+}
+.index-main{
+  padding: 20px;
+}
+.index-main h2::after{
+  content: " ";
+  display: block;
+  position: absolute;
+  background-color: #45a049;
+  height: 3px;
+  width: 90%;
+  
+}
+.index-main p{
+  padding: 10px;
+}
+.index-news-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-bottom: 100px;
+  min-width: 400px;
+  max-width: 600px;
+
+}
+
+.index-news-section > div{
+  width: 100%;
+  
+}
+.index-news-section img{
+  margin-top: 10px;
+  width: 100%;
+
+}
+.view-more{
+  padding: 10px;
+ margin-top: 5px;
+}
+.view-more a{
+  text-decoration: none;
+  border-radius: 20px;
+  background: #04AA6D;
+  color: #fff;
+}
+.resource-category {
+  margin-bottom: 70px;
+  padding: 10px;
+}
+
+
+
+.resource-link {
+  display: block;
+  color: #0366d6; 
+  text-decoration: none;
+}
+
+.resource-link:hover {
+  text-decoration: underline;
+}
+
+.resource-description {
+  font-style: italic;
+  color: #666;
+}
