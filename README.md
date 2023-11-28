@@ -31,6 +31,16 @@ To run this project locally, follow these steps:
 3. Open any HTML file (e.g., `index.html`) in your preferred web browser to view the website.
 
 ## Screenshots
+![127 0 0 1_5500_src_student html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/11b4be32-ed38-41dc-9dea-33077683e228)
+![127 0 0 1_5500_src_resources html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/74310ec5-d80d-4490-a764-4c87ae891c4d)
+![127 0 0 1_5500_src_login html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/0c48c336-f27d-476d-abf2-de53884c5a3c)
+![127 0 0 1_5500_src_index html (2)](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/da514835-c6f1-4c6c-83ad-7a7670b38d99)
+![127 0 0 1_5500_src_gallery html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/d053dd04-2a18-4205-8399-49aa2d5a3dd5)
+![127 0 0 1_5500_src_FAQs html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/3f88f4d3-aeb0-4d3d-8d76-dc25220b5e65)
+![127 0 0 1_5500_src_event html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/eefbbbea-0a5a-46f2-8d59-c522b50d5858)
+![127 0 0 1_5500_src_contact html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/414756e3-261d-4941-bf8b-8033bb934c6b)
+![127 0 0 1_5500_src_catalog html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/70c28e17-6196-4bc7-a94a-e7df4026acf9)
+![127 0 0 1_5500_src_about html](https://github.com/Queenathelma/11067968_DCIT_205_IA/assets/152209338/5ddb6fdc-9467-4299-ae61-f60b99cfec84)
 
 
 
