@@ -15,7 +15,7 @@ The project is structured as follows:
 - `events.html`: Information on departmental events
 - `contact.html`: Contact details
 - `student.html`: Showcase of student profile
-- `staff-profiles.html`: Profiles of department staff
+- `FAQS.html`: Profiles of department staff
 - `gallery.html`: images of moments in the department
 - `login.html`: login page where student login into COMPSSA
 ## Technologies Used
